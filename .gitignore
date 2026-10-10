@@ -1,0 +1,22 @@
+# Hassas bilgiler ve şifreler (ASLA yüklenmemeli)
+.env
+.env.local
+.env.production
+
+# Bağımlılık klasörü (Çok büyük olduğu için yüklenmez, npm install ile indirilir)
+node_modules/
+
+# Veritabanı dosyaları (SQLite kullanıyorsan)
+*.db
+*.sqlite
+*.sqlite3
+database/
+
+# Derlenmiş çıktı dosyaları (İsteğe bağlı, ama kaynak kodu yüklemek daha temizdir)
+dist/
+server-dist/
+build/
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
